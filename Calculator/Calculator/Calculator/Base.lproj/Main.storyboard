@@ -17,25 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sYM-n6-G7k">
-                                <rect key="frame" x="140" y="357" width="110" height="200"/>
+                                <rect key="frame" x="0.0" y="237.66666666666669" width="390" height="572.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFC-TC-Hon">
-                                <rect key="frame" x="75" y="137" width="240" height="136"/>
+                                <rect key="frame" x="0.0" y="46.999999999999986" width="390" height="190.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="sYM-n6-G7k" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.236967" id="8qL-xc-kym"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sYM-n6-G7k" secondAttribute="trailing" constant="140" id="9A9-4b-WiO"/>
-                            <constraint firstItem="nFC-TC-Hon" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="ULy-Ik-6OL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nFC-TC-Hon" secondAttribute="trailing" constant="75" id="Vji-kS-F1D"/>
-                            <constraint firstItem="sYM-n6-G7k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="WN2-vC-Egt"/>
-                            <constraint firstItem="sYM-n6-G7k" firstAttribute="top" secondItem="nFC-TC-Hon" secondAttribute="bottom" constant="84" id="d7J-BG-3To"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sYM-n6-G7k" secondAttribute="bottom" constant="253" id="epJ-ov-qHS"/>
-                            <constraint firstItem="nFC-TC-Hon" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="r5d-cJ-SVj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sYM-n6-G7k" secondAttribute="trailing" id="9A9-4b-WiO"/>
+                            <constraint firstItem="sYM-n6-G7k" firstAttribute="height" secondItem="nFC-TC-Hon" secondAttribute="height" multiplier="3" id="RrS-ry-NPE"/>
+                            <constraint firstItem="nFC-TC-Hon" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ULy-Ik-6OL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nFC-TC-Hon" secondAttribute="trailing" id="Vji-kS-F1D"/>
+                            <constraint firstItem="sYM-n6-G7k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WN2-vC-Egt"/>
+                            <constraint firstItem="sYM-n6-G7k" firstAttribute="top" secondItem="nFC-TC-Hon" secondAttribute="bottom" id="d7J-BG-3To"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sYM-n6-G7k" secondAttribute="bottom" id="epJ-ov-qHS"/>
+                            <constraint firstItem="nFC-TC-Hon" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r5d-cJ-SVj"/>
                         </constraints>
                     </view>
                 </viewController>
